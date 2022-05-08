@@ -350,6 +350,20 @@ body {
 
 /* footer */
 
+.footer-bgc .logo.link {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.footer-list-items:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-bgc .container {
+  padding-bottom: 60px;
+}
+
 .footer-bgc {
   background-color: var(--footer-background);
 }
