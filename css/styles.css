@@ -32,6 +32,20 @@ body {
   outline: 2px solid tomato;
 }
 
+.page-header .container {
+  display: flex;
+}
+
+.page-header .nav-list {
+  display: flex;
+  margin-left: 93px;
+}
+
+.page-header .contact {
+  display: flex;
+  margin-left: auto;
+}
+
 .contact.list {
   line-height: 1.14;
   letter-spacing: 0.02em;
