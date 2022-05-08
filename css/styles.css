@@ -256,8 +256,14 @@ body {
   margin-right: 30px;
 }
 
+/* team */
+
 .team {
   background-color: var(--button-background);
+}
+
+.team .container {
+  padding-top: 94px;
 }
 
 .team-child {
@@ -268,12 +274,18 @@ body {
   width: 270px;
 }
 
+.team-child:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   color: var(--prymary-text-color);
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .team-name {
@@ -282,6 +294,8 @@ body {
   line-height: 1.19;
   text-align: center;
   color: var(--prymary-text-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team-position {
@@ -290,6 +304,12 @@ body {
   line-height: 1.19;
   text-align: center;
   color: var(--header-contacts);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.team-list {
+  display: flex;
 }
 
 /* filter */
