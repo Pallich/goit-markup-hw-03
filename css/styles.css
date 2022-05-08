@@ -31,7 +31,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 
-  outline: 2px solid tomato;
+  outline: 2px dotted tomato;
 }
 
 .page-header .container {
@@ -83,8 +83,10 @@ body {
   margin-left: 93px;
 }
 
-.list.nav-list {
-  padding-left: 0;
+.nav-list .link.navigation {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .list.nav-list .items:not(:last-child) {
@@ -114,10 +116,6 @@ body {
   margin-left: auto;
 }
 
-.contact.list {
-  padding-left: 0;
-}
-
 .contact.list .items:not(:last-child) {
   margin-right: 50px;
 }
@@ -131,6 +129,8 @@ body {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* INDEX PAGE */
@@ -163,6 +163,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--prymary-bg-color);
+
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -194,12 +195,29 @@ body {
 }
 
 /* Benefits */
+
+.benefits .container {
+  padding-top: 93px;
+  padding-bottom: 93px;
+}
+
+.benefits-list {
+  display: flex;
+}
+
+.benefits-list .items:not(:last-child) {
+  margin-right: 30px;
+}
+
 .benefits-title {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--prymary-text-color);
+
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .benefits-text {
@@ -208,15 +226,34 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--header-contacts);
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Doing */
+
+.container.doing {
+  padding-bottom: 94px;
+}
+
 .doing-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.doing-list {
+  display: flex;
+}
+
+.doing-list .items:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team {
