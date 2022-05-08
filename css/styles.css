@@ -22,6 +22,8 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Header */
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -34,22 +36,42 @@ body {
 
 .page-header .container {
   display: flex;
+  align-items: center;
 }
 
+/* header nav-list */
 .page-header .nav-list {
   display: flex;
   margin-left: 93px;
 }
 
+.list.nav-list {
+  padding-left: 0;
+}
+
+.list.nav-list .items:not(:last-child) {
+  margin-right: 50px;
+}
+
+/* header contacts */
 .page-header .contact {
   display: flex;
   margin-left: auto;
 }
 
 .contact.list {
+  padding-left: 0;
+}
+
+.contact.list .items:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact.list {
   line-height: 1.14;
   letter-spacing: 0.02em;
   font-weight: 500;
+  padding-left: 0;
 }
 
 .logo {
