@@ -386,6 +386,30 @@ body {
 
 /* PORTFOLIO PAGE */
 
+.works .container {
+  align-items: center;
+  padding-top: 94px;
+}
+
+.works-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.works-buttons-items .button {
+  padding: 6px 22px;
+}
+
+.works-buttons-items:not(:last-child) {
+  margin-right: 8px;
+}
+
+/* 
+.works-buttons .button {
+  display: inline-block;
+} */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
