@@ -26,7 +26,8 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  outline: 2px dotted teal;
+
+  /* outline: 2px dotted teal; */ /* Тимчасове, допоміжне для верстки */
 }
 
 /* Header */
@@ -41,7 +42,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 
-  outline: 2px dotted tomato;
+  /* outline: 2px dotted tomato; */ /* Тимчасове, допоміжне для верстки */
 }
 
 .page-header .container {
@@ -273,6 +274,7 @@ body {
     0px 2px 1px var(--box-shadow-3);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
+  padding-bottom: 30px;
 }
 
 .team-child:not(:last-child) {
